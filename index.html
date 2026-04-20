@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <main>
+      <article class="card">
+        <picture>
+          <source
+            media="(min-width: 650px)"
+            srcset="./images/image-header-desktop.jpg"
+          />
+          <img
+            src="images/image-header-mobile.jpg"
+            alt="Women working in an office"
+            width="654"
+            height="480"
+            class="card__img"
+          />
+        </picture>
+        <div class="card__content">
+          <h1 class="card__heading">
+            Get <span class="card__heading-highlight">insights</span> that help
+            your business grow.
+          </h1>
+          <p class="card__text">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <dl class="card__data">
+            <div class="card__data-item">
+              <dt class="card__data-qt">10k+</dt>
+              <dd class="card__data-type">companies</dd>
+            </div>
+            <div class="card__data-item">
+              <dt class="card__data-qt">314</dt>
+              <dd class="card__data-type">templates</dd>
+            </div>
+            <div class="card__data-item">
+              <dt class="card__data-qt card__data-qt-uppercase">12m+</dt>
+              <dd class="card__data-type">queries</dd>
+            </div>
+          </dl>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
