@@ -27,14 +27,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/screenshop_desktop.png)
+![](./screenshots/screenshot_desktop.png)
 ![](./screenshots/screenshot_tablet.png)
 ![](./screenshots/screenshot_mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Repo](https://github.com/Kristina2025/FM8-Stats-Preview-Card-Component)
+- Live Site URL: [Site on Netlify](https://fm8-stats-preview-card-component.netlify.app/)
 
 ## My process
 

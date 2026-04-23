@@ -52,7 +52,7 @@ body {
   height: auto;
   display: block;
   mix-blend-mode: multiply;
-  border-radius: 8px 8px 0px 0px;
+  border-radius: inherit;
   opacity: 0.8;
 }
 
@@ -153,7 +153,7 @@ body {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 0px 8px 8px 0px;
+    border-radius: inherit;
   }
 
   .card__content {
